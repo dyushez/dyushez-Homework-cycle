@@ -7,3 +7,4 @@ tags = pd.read_csv('tags.csv', index_col='movieId')
 data_tags_movies = pd.merge(tags, movies, on='movieId')
 
 print(data_tags_movies)
+
